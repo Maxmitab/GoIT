@@ -1,0 +1,9 @@
+.month {
+  width: 100px;
+  border: 1px solid #ccc;
+}
+
+.year {
+  width: 70px;
+  border: 1px solid #ccc;
+}
