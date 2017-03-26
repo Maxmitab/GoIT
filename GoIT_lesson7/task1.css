@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align-last:justify;
+  text-transform:uppercase;
+}
+
+.text{
+  max-width:820px;
+  font-size:200px;
+  text-shadow: #000 0 0 10px;
+  color:transparent;
+  margin:0 auto;
+}
+.p2{
+  font-size:90%;
+}
+.p3{
+  font-size:80%;
+}
+.p4{
+  font-size:70%;
+}
+.p5{
+  font-size:60%;
+}
+.p6{
+  font-size:50%;
+}
+.p7{
+  font-size:40%;
+}
+.p8{
+  font-size:30%;
+}
+.p9{
+  font-size:20%;
+}
