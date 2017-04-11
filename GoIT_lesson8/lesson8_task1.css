@@ -1,0 +1,43 @@
+.holder {
+    width: 72%;
+}
+
+form {
+    position: relative;
+    /*background: #ff9933;*/
+    background:linear-gradient(to top, #ff9933, #cc6600);
+    padding: 0.1em;
+    margin: 1.5em;
+    line-height: 22px;
+    border-radius: 2px;
+    min-width: 640px;
+}
+.blk_2{
+    background:#ff9933;
+}
+
+form:after {
+    content: '';
+    position: absolute;
+    border: 34px solid white;
+    border-left: 30px solid transparent;
+    top: 0;
+    left: 95%;
+}
+
+input {
+    margin: 0 1em;
+    border: 1px solid #ff9900;
+    line-height: 22pt;
+    font-size: 16px;
+}
+
+.btn {
+    float: right;
+    margin-right: 8%;
+}
+
+.srch {
+    width: 60%;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
