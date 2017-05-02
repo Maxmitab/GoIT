@@ -1,0 +1,534 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* <!-- HEADER --> */
+.header-top {
+  position: relative;
+  height: 118px;
+  font-family: Helvetica;
+  background: #ffffff;
+  min-width: 1300px;
+}
+.header-logo {
+  position: absolute;
+  width: 300px;
+  font-size: 26pt;
+  color: #ff8c00;
+  letter-spacing: 3px;
+  top: 43%;
+  left: 10%;
+}
+.header-logo strong {
+  text-transform: uppercase;
+  color: #0277bd;
+}
+.main-nav {
+  position: absolute;
+  top: 41%;
+  right: 8%;
+  text-transform: uppercase;
+  font-size: 10pt;
+  width: 50%;
+  margin-top: 10px;
+}
+.main-nav li {
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px 30px 20px;
+  width: 10%;
+  margin-top: 0.5em;
+}
+.main-nav li:hover {
+  border-bottom: 4px solid #0277bd;
+}
+.main-nav li:hover > a {
+  color: #0277bd;
+}
+.main-nav li:active {
+  padding: 0 20px 25px 20px;
+  color: #0277bd
+}
+.main-nav a {
+  text-decoration: none;
+  color: #9e9e9e;
+}
+.promo {
+  min-width: 1400px;
+  height: 620px;
+  font-family: 'Futura_Book-Bold', arial;
+  color: #ffffff;
+  text-align:center;
+  background:url(background-header.png)no-repeat;
+  background-size: cover;
+}
+.text {
+  padding:7em 20em;
+}
+.p {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 1%;
+}
+.span {
+  font-size: 52px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.em {
+  font-size: 20px;
+  margin: 3% 0 8% 0;
+  font-style: italic;
+  font-family: Calibri;
+  line-height: 40px;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.26);
+}
+.ghost-button {
+  border: 1px solid white;
+  padding: 1.3em 4em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-weight: 700;
+  text-decoration: none;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #0277bd;
+  transition: background-color 0.3s ease-in;
+}
+
+
+/* <!-- ICON BAR -->*/
+.container{
+  text-align:center;
+  text-transform:uppercase; 
+  padding-top: 1.5em;
+}
+.sub-container{
+  display:inline-block; 
+  padding:3%;
+}
+.safe_lock{
+background: url("lock.png") no-repeat;
+width: 143px;
+height: 141px;
+background-size: cover;
+margin:0 auto;
+}
+.safe_lock:hover{
+ box-shadow: 0 0 10px rgba(0,0,0,0.8);
+ border-radius: 50%;
+ cursor: pointer;
+}
+.safe_zip{
+background: url("zip.png") no-repeat;
+width: 141px;
+height: 141px;
+background-size: cover;
+margin:0 auto;
+}
+.safe_zip:hover{
+ box-shadow: 0 0 10px rgba(0,0,0,0.8);
+ border-radius: 50%;
+ cursor: pointer;
+}
+.safe_mob{
+background: url("mob.png") no-repeat;
+width: 141px;
+height: 141px;
+background-size: cover;
+margin:0 auto;
+}
+.safe_mob:hover{
+ box-shadow: 0 0 10px rgba(0,0,0,0.8);
+ border-radius: 50%;
+ cursor: pointer;
+}
+.texticon{
+  width:304px;
+  font-family: Helvetica;
+  color:  #999999;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  text-transform:none;
+}
+h1{
+  padding:1em 0; 
+  color:  #40525c;
+  font-family: 'Trebuchet MS';
+  text-transform:uppercase;  
+}
+span{
+  color:  #3070a8;
+  font-weight:300;
+}
+
+
+/* <!-- MID SECTION --> */
+.mid-container{
+min-width: 1400px;
+height: 625px;
+background: url("midsec.png")no-repeat;
+background-size: cover;
+overflow: hidden;
+}
+.mid-sub-container{
+ max-width: 800px;
+ margin: 3.5% 8%;
+ font-family: 'Open Sans', arial;
+ text-align: left;
+ line-height: 30px;
+}
+.mid-sub-container p, li{
+ padding-top: 1.5em;
+}
+.top{
+font-family: Helvetica;
+color: #ee8129;
+font-size: 26px;
+font-weight: 300;
+line-height: 48px; 
+text-transform: uppercase;
+}
+.italic{
+color: #ffffff;
+font-size: 19px; 
+font-style: italic;
+text-align: left;
+}
+ul{
+color: #9d9d9d;
+font-size: 14px;
+font-weight: 400;
+}
+.blue span{
+color:  #3070a8;
+}
+.blue{
+color:  #3070a8;
+}
+
+
+/*<!-- PRICETAG SECTION -->*/
+.tag-container {
+  position: relative;
+  width: 920px;
+  height: 620px;
+  font-family: Trebuchet MS;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.index1 {
+  width: 310px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #b0bec5;
+  overflow: hidden;
+  border-radius: 5px;
+  float: left;
+}
+.index1:hover {
+  box-shadow: 0px 0px 15px -2px #424242;
+}
+
+.index2 {
+  width: 310px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  border: 1px solid #b0bec5;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-left: 0px;
+}
+.index2 .text-tag {
+  background: #1cb79a;
+}
+.index2:hover {
+  box-shadow: 0px 0px 15px -2px #424242;
+}
+
+.index3 {
+  position:absolute;
+  width: 310px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  border: 3px solid #f57c00;
+  overflow: hidden;
+  border-radius: 5px;
+  background:#ffffff;
+  top:16%;
+  left:32.6%;
+  padding-bottom:15px;
+}
+.index3 .text-tag{
+  background: #f57c00;
+  padding: 23px 0;
+}
+.index3 .lev1{
+  text-transform: uppercase;
+}
+.index3 .btn-tag{
+  background: #f57c00;
+  box-shadow: 0px 3px 0px 0px #b3560b;
+}
+.index3:hover {
+  box-shadow: 0px 0px 15px -2px #424242;
+}
+
+.text-tag {
+  padding: 15px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background: #00ced1;
+}
+
+.graph {
+  font-size: 20px;
+  opacity: 0.7;
+  padding: 20px 0;
+}
+
+.baby {
+  font-size: 70px;
+  color: #35495a;
+  padding-bottom: 15px;
+}
+
+.child .baby:before {
+  content: "$ ";
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.child .baby:after {
+  content: "Monthly";
+  font-size: 18px;
+  vertical-align: bottom;
+  text-transform: none;
+}
+
+.tab {
+  padding: 15px 15px 20px;
+  font-size: 15px;
+  color: #888c94;
+  text-align: left;
+  text-transform: none;
+}
+.tab li {
+  position: relative;
+  list-style-type: none;
+  background: #edf5fd;
+  padding: 5px 5px 5px 50px;
+  border-bottom: 1px solid white;
+}
+.tab li:before {
+  content: '';
+  position: absolute;
+  background: url(http://www.clipartbest.com/cliparts/xTg/Bry/xTgBryETA.png) no-repeat;
+  background-size: contain;
+  width: 17px;
+  height: 19px;
+  top: 8px;
+  left: 20px;
+}
+.tab li:nth-child(even) {
+  background: #f5f5f6;
+}
+
+.btn-tag {
+  width: 230px;
+  background: #3371a6;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0px 3px 0px 0px #16436a;
+}
+div .ref{
+  color: white;
+}
+.btn-tag:hover {
+  opacity: 0.9;
+}
+.btn-tag:active {
+  position: relative;
+  top: 3px;
+  box-shadow: none;
+}
+
+
+
+/*<!-- TESTIMONIALS -->*/
+.testimonials-container {
+  background: url(task2f.psd) no-repeat;
+  background-size: cover;
+}
+
+.testimonials-container h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font: bold 40pt "Trebuchet MS", sans-serif;
+  color: #1e88e5;
+  padding-top: 3%;
+  opacity: 0.9;
+}
+
+.orange {
+  color: #ff9800;
+  opacity: 0.9;
+  font-weight: thin;
+}
+
+.wraper{
+  margin-left:14%;
+  padding-bottom: 4%;
+}
+.customer {
+  width: 528px;
+  display: inline-block;
+  padding: 1.5%;
+}
+
+.article {
+  position: relative;
+  float: right;
+  padding: 10px 16px;
+  width: 364px;
+  background: white;
+  font: 11pt 'Trebuchet MS', sans-serif;
+  opacity:0.9;
+}
+.author:before {
+  content: '';
+  position: absolute;
+  border: 15px solid transparent;
+  border-right: 15px solid #ffffff;
+  top:35px;
+  left: -30px;
+}
+.customer-header {
+  border-bottom: 1px dashed #666666;
+  line-height: 25px;
+  font-style: Italic;
+  font-weight: bold;
+  color: #1e88e5;
+}
+.customer-client {
+  float: right;
+}
+.descript {
+  padding-top: 10px;
+  color:#666666;
+}
+
+
+
+/*<!-- FOOTER -->*/
+footer {
+     position: relative;
+}
+
+.left {  
+    box-sizing: border-box;
+    background: white;
+    display: inline-block;
+    padding: 4% 20% 7% 20%;
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: Arial;
+}
+
+.text-up,
+.text-mid,
+.text-bot {
+    position: relative;
+}
+
+.text-up:before {
+    content: '';
+    position: absolute;
+    background: url('https://Maxmitab.github.io/GoIT/GoIT_lesson9/spot.png') no-repeat;
+    background-size: contain;
+    width: 23px;
+    height: 31px;
+    top: 5px;
+    left: -60px;
+}
+
+.text-mid:before {
+    content: '';
+    position: absolute;
+    background: url('https://Maxmitab.github.io/GoIT/GoIT_lesson9/mob.png') no-repeat;
+    background-size: contain;
+    width: 23px;
+    height: 31px;
+    top: 5px;
+    left: -60px;
+}
+
+.text-bot:before {
+    content: '';
+    position: absolute;
+    background: url('https://Maxmitab.github.io/GoIT/GoIT_lesson9/mail.png') no-repeat;
+    background-size: contain;
+    width: 23px;
+    height: 31px;
+    top: 12px;
+    left: -60px;
+}
+
+.left img {
+    padding: 10px;
+}
+
+.links {
+    margin-left: -30%;
+}
+
+.left img:hover {
+    cursor: pointer;
+}
+
+.map {
+    position:absolute;
+    display:inline-block;
+    width: 70%;
+    height: 100%;
+}
+
+.left .text-up,
+.text-mid,
+.text-bot {
+    padding:5%;
+}
+
+.bottom {
+position:absolute;
+    text-align: center;
+    background: #3070a8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 2%;
+    width: 100%;
+}
+.bottom span{
+  color: black;
+}
